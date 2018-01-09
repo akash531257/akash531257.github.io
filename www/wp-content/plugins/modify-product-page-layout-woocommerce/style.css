@@ -1,0 +1,38 @@
+#woocommerce_modify_product_page_layout_lists {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+#woocommerce_modify_product_page_layout_lists .list {
+	flex: 1;
+	/* fallback */
+	float: left;
+	width: 20%;
+	padding: 10px;
+	border:1px solid #e4e4e4;
+	background: #FFF;
+}
+
+#woocommerce_modify_product_page_layout_lists .list:not(:last-child) {
+	margin-right: 10px;
+}
+
+#woocommerce_modify_product_page_layout_lists ul {
+	min-height: 250px;
+}
+
+#woocommerce_modify_product_page_layout_lists ul li {
+	padding: 5px;
+	background: #e4e4e4;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+#woocommerce_modify_product_page_layout_heading .status {
+	font-weight: bold;
+	content: ' ';
+}
